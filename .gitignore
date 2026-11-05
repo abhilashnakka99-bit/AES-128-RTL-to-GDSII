@@ -3,3 +3,13 @@ openlane_reports/
 *.log
 *.tmp
 __pycache__/
+
+/runs/
+/reports/*
+!/reports/portfolio/
+!/reports/portfolio/**
+
+/runs/
+/reports/*
+!/reports/portfolio/
+!/reports/portfolio/**
