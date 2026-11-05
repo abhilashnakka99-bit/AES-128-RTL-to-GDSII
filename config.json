@@ -1,0 +1,22 @@
+
+{
+    "DESIGN_NAME": "aes128_top",
+
+    "VERILOG_FILES": "dir::rtl/*.v",
+
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10,
+
+    "PDK": "sky130A",
+
+    "PNR_SDC_FILE": "dir::aes128.sdc",
+    "SIGNOFF_SDC_FILE": "dir::aes128.sdc",
+
+    "GRT_ANTENNA_ITERS": 5,
+
+    "pdk::sky130A": {
+        "FP_CORE_UTIL": 30,
+        "PL_TARGET_DENSITY_PCT": 40
+    }
+}
+
